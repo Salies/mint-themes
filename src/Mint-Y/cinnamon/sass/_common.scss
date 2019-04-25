@@ -264,7 +264,7 @@ StScrollBar {
   color: $fg_color;
   border: 1px solid $borders_color;
   border-radius: 3px;
-	background-color: transparentize($bg_color, 0.01);
+	background-color: rgba(0,0,0,0.9);
 
   &.top {
     border-radius: 0 0 3px 3px;
@@ -1232,7 +1232,7 @@ StScrollBar {
   &-favorites-box {
     padding: 10px;
     transition-duration: 300;
-    background-color: $base_color;
+    background-color: rgba(0,0,0,0.75);
     border: 1px solid $borders_color;
   }
 
